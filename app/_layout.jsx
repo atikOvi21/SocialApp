@@ -19,6 +19,7 @@ const RootLayout = () => {
       <StatusBar barStyle="auto" />
       <Tabs
         screenOptions={{
+          headerShown: false,
           tabBarActiveTintColor: "#2563eb",
           tabBarInactiveTintColor: "#6b7280",
           tabBarStyle: {
